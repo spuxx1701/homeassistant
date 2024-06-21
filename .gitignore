@@ -4,6 +4,7 @@
 
 !.gitignore
 !blueprints/**
+!docker/**
 !automations.yaml
 !configuration.yaml
 !scenes.yaml
