@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace.dashboard_hub",
+  "data": {
+    "config": {
+      "views": [
+        {
+          "title": "Home",
+          "cards": [
+            {
+              "type": "weather-forecast",
+              "entity": "weather.forecast_home",
+              "forecast_type": "daily"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

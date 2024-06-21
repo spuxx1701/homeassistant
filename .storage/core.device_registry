@@ -5,7 +5,8 @@
   "data": {
     "devices": [
       {"area_id":null,"config_entries":["99ae0d023ab2285b692a82ecb60af94f"],"configuration_url":null,"connections":[],"disabled_by":null,"entry_type":"service","hw_version":null,"id":"559555c8099d3bfed585a20300c6b10b","identifiers":[["sun","99ae0d023ab2285b692a82ecb60af94f"]],"labels":[],"manufacturer":null,"model":null,"name_by_user":null,"name":"Sun","serial_number":null,"sw_version":null,"via_device_id":null},
-      {"area_id":null,"config_entries":["91896229f04fdc18510cde25a666b2d3"],"configuration_url":"https://www.met.no/en","connections":[],"disabled_by":null,"entry_type":"service","hw_version":null,"id":"a4af3c7ec4bb894d827f6f1a0e73c491","identifiers":[["met","91896229f04fdc18510cde25a666b2d3"]],"labels":[],"manufacturer":"Met.no","model":"Forecast","name_by_user":null,"name":"Forecast","serial_number":null,"sw_version":null,"via_device_id":null}
+      {"area_id":null,"config_entries":["91896229f04fdc18510cde25a666b2d3"],"configuration_url":"https://www.met.no/en","connections":[],"disabled_by":null,"entry_type":"service","hw_version":null,"id":"a4af3c7ec4bb894d827f6f1a0e73c491","identifiers":[["met","91896229f04fdc18510cde25a666b2d3"]],"labels":[],"manufacturer":"Met.no","model":"Forecast","name_by_user":null,"name":"Forecast","serial_number":null,"sw_version":null,"via_device_id":null},
+      {"area_id":"living_room","config_entries":["96d7b89c12d8c30dfe377bbc0cc886f9"],"configuration_url":"https://open.spotify.com","connections":[],"disabled_by":null,"entry_type":"service","hw_version":null,"id":"be51a7b897349e164754f2e6f503e58b","identifiers":[["spotify","kq5d0gex9pa7g5tedvqckdvv7"]],"labels":[],"manufacturer":"Spotify AB","model":"Spotify premium","name_by_user":null,"name":"Spotify Schallplaton","serial_number":null,"sw_version":null,"via_device_id":null}
     ],
     "deleted_devices": []
   }
