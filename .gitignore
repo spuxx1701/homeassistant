@@ -1,0 +1,11 @@
+# Ignore everything by default except directories
+*
+!*/
+
+!.gitignore
+!blueprints/**
+!automations.yaml
+!configuration.yaml
+!scenes.yaml
+!scripts.yaml
+
