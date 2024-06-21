@@ -9,4 +9,6 @@
 !configuration.yaml
 !scenes.yaml
 !scripts.yaml
-
+!.storage/lovelace*
+!.storage/person
+!.storage/*registry
