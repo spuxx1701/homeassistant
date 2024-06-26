@@ -10,8 +10,6 @@ automation: !include automations.yaml
 script: !include scripts.yaml
 
 http:
-  cors_allowed_origins:
-    - http://hub.fritz.box
   use_x_forwarded_for: true
   trusted_proxies:
     # Trust all proxies
