@@ -6,12 +6,16 @@
     "config": {
       "views": [
         {
-          "title": "Home",
+          "title": "Home Sweet Home ❤️",
           "cards": [
             {
               "type": "weather-forecast",
               "entity": "weather.forecast_home",
               "forecast_type": "daily"
+            },
+            {
+              "type": "media-control",
+              "entity": "media_player.spotify_schallplaton"
             }
           ]
         }
