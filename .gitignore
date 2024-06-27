@@ -12,3 +12,4 @@
 !config/.storage/lovelace*
 !config/.storage/person
 !config/.storage/*registry
+!config/.storage/core.config
