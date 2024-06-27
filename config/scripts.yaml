@@ -1,0 +1,5 @@
+turn_on_scene:
+  alias: Turn on scene
+  sequence: []
+  description: Turns on a scene.
+  icon: mdi:lightbulb-multiple

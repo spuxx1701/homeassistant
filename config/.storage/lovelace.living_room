@@ -16,6 +16,47 @@
             {
               "type": "media-control",
               "entity": "media_player.spotify_schallplaton"
+            },
+            {
+              "square": false,
+              "type": "grid",
+              "cards": [
+                {
+                  "show_name": true,
+                  "show_icon": true,
+                  "type": "button",
+                  "tap_action": {
+                    "action": "toggle"
+                  },
+                  "entity": "light.living_room_lights",
+                  "name": "Bright",
+                  "icon": "mdi:white-balance-sunny",
+                  "show_state": false
+                },
+                {
+                  "show_name": true,
+                  "show_icon": true,
+                  "type": "button",
+                  "tap_action": {
+                    "action": "toggle"
+                  },
+                  "entity": "light.living_room_center_light",
+                  "icon": "mdi:weather-sunset",
+                  "name": "Sunset"
+                },
+                {
+                  "show_name": true,
+                  "show_icon": true,
+                  "type": "button",
+                  "tap_action": {
+                    "action": "toggle"
+                  },
+                  "entity": "light.living_room_lights",
+                  "name": "Night",
+                  "icon": "mdi:moon-waning-crescent"
+                }
+              ],
+              "title": "Scenes"
             }
           ]
         }
