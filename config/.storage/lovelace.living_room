@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace.living_room",
+  "data": {
+    "config": {
+      "views": [
+        {
+          "title": "Living Room",
+          "cards": [
+            {
+              "type": "light",
+              "entity": "light.living_room_lights",
+              "name": "Lights"
+            },
+            {
+              "type": "media-control",
+              "entity": "media_player.spotify_schallplaton"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

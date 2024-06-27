@@ -8,7 +8,9 @@
         "id": "leo",
         "name": "leo",
         "user_id": "ec8be6ecb7b14181a4703981284759f4",
-        "device_trackers": []
+        "device_trackers": [
+          "device_tracker.sm_a525f"
+        ]
       }
     ]
   }

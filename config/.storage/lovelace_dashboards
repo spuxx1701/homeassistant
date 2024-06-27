@@ -21,6 +21,15 @@
         "require_admin": false,
         "mode": "storage",
         "url_path": "dashboard-hub"
+      },
+      {
+        "id": "living_room",
+        "show_in_sidebar": true,
+        "icon": "mdi:sofa",
+        "title": "Living Room",
+        "require_admin": false,
+        "mode": "storage",
+        "url_path": "living-room"
       }
     ]
   }
