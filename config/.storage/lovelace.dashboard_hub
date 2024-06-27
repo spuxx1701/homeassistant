@@ -6,7 +6,7 @@
     "config": {
       "views": [
         {
-          "title": "Home Sweet Home ❤️",
+          "title": "News",
           "cards": [
             {
               "type": "weather-forecast",
@@ -14,10 +14,13 @@
               "forecast_type": "daily"
             },
             {
-              "type": "media-control",
-              "entity": "media_player.spotify_schallplaton"
+              "type": "iframe",
+              "url": "https://www.deutschlandfunk.de",
+              "aspect_ratio": "100%",
+              "title": "News"
             }
-          ]
+          ],
+          "icon": "mdi:newspaper"
         }
       ]
     }

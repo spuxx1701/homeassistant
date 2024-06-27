@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.label_registry",
+  "data": {
+    "labels": [
+      {
+        "color": "accent",
+        "description": null,
+        "icon": "mdi:lightbulb-group",
+        "label_id": "lights",
+        "name": "Lights"
+      }
+    ]
+  }
+}
