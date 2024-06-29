@@ -46,11 +46,20 @@
                   "tap_action": {
                     "action": "toggle"
                   },
-                  "entity": "scene"
+                  "entity": "scene.living_room_bright"
+                },
+                {
+                  "show_name": true,
+                  "show_icon": true,
+                  "type": "button",
+                  "tap_action": {
+                    "action": "toggle"
+                  },
+                  "entity": "scene.living_room_sunset"
                 }
               ],
               "title": "Scenes",
-              "columns": 3
+              "columns": 2
             }
           ]
         }
