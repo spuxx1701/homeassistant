@@ -6,11 +6,21 @@
     "items": [
       {
         "id": "leo",
-        "name": "leo",
+        "name": "Leo",
         "user_id": "ec8be6ecb7b14181a4703981284759f4",
         "device_trackers": [
           "device_tracker.sm_a525f"
-        ]
+        ],
+        "picture": null
+      },
+      {
+        "id": "doro",
+        "name": "Doro",
+        "device_trackers": [
+          "device_tracker.iphone"
+        ],
+        "user_id": "75e6759758f5406086403abcbc3f9478",
+        "picture": null
       }
     ]
   }

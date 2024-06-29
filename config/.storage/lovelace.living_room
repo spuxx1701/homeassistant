@@ -9,16 +9,34 @@
           "title": "Living Room",
           "cards": [
             {
+              "type": "media-control",
+              "entity": "media_player.spotify_schallplaton"
+            },
+            {
               "type": "light",
               "entity": "light.living_room_lights",
               "name": "Lights"
             },
             {
-              "type": "media-control",
-              "entity": "media_player.spotify_schallplaton"
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "light.tz3210_cieijuw1_ts0505b_light"
+                },
+                {
+                  "entity": "light.living_room_dining_light_2"
+                },
+                {
+                  "entity": "light.living_room_corner_light_2"
+                },
+                {
+                  "entity": "light.living_room_window_light_2"
+                }
+              ],
+              "title": "Lights"
             },
             {
-              "square": false,
+              "square": true,
               "type": "grid",
               "cards": [
                 {
@@ -28,35 +46,11 @@
                   "tap_action": {
                     "action": "toggle"
                   },
-                  "entity": "light.living_room_lights",
-                  "name": "Bright",
-                  "icon": "mdi:white-balance-sunny",
-                  "show_state": false
-                },
-                {
-                  "show_name": true,
-                  "show_icon": true,
-                  "type": "button",
-                  "tap_action": {
-                    "action": "toggle"
-                  },
-                  "entity": "light.living_room_center_light",
-                  "icon": "mdi:weather-sunset",
-                  "name": "Sunset"
-                },
-                {
-                  "show_name": true,
-                  "show_icon": true,
-                  "type": "button",
-                  "tap_action": {
-                    "action": "toggle"
-                  },
-                  "entity": "light.living_room_lights",
-                  "name": "Night",
-                  "icon": "mdi:moon-waning-crescent"
+                  "entity": "scene"
                 }
               ],
-              "title": "Scenes"
+              "title": "Scenes",
+              "columns": 3
             }
           ]
         }
