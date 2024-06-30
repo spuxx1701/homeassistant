@@ -46,7 +46,8 @@
                   "tap_action": {
                     "action": "toggle"
                   },
-                  "entity": "scene.living_room_bright"
+                  "entity": "scene.living_room_bright",
+                  "name": "Bright"
                 },
                 {
                   "show_name": true,
@@ -55,11 +56,62 @@
                   "tap_action": {
                     "action": "toggle"
                   },
-                  "entity": "scene.living_room_sunset"
+                  "entity": "scene.living_room_sunset",
+                  "name": "Cozy Sunset"
+                },
+                {
+                  "show_name": true,
+                  "show_icon": true,
+                  "type": "button",
+                  "tap_action": {
+                    "action": "toggle"
+                  },
+                  "entity": "scene.living_room_moonlight",
+                  "name": "Magic Moonlight"
+                },
+                {
+                  "show_name": true,
+                  "show_icon": true,
+                  "type": "button",
+                  "tap_action": {
+                    "action": "toggle"
+                  },
+                  "entity": "scene.living_room_sunny_fields",
+                  "name": "Sunny Fields"
+                },
+                {
+                  "show_name": true,
+                  "show_icon": true,
+                  "type": "button",
+                  "tap_action": {
+                    "action": "toggle"
+                  },
+                  "entity": "scene.living_room_lush_forest",
+                  "name": "Lush Forest"
+                },
+                {
+                  "show_name": true,
+                  "show_icon": true,
+                  "type": "button",
+                  "tap_action": {
+                    "action": "toggle"
+                  },
+                  "entity": "scene.living_room_dark_cave",
+                  "name": "Dark Cave"
+                },
+                {
+                  "show_name": true,
+                  "show_icon": true,
+                  "type": "button",
+                  "tap_action": {
+                    "action": "toggle"
+                  },
+                  "entity": "scene.living_room_campfire",
+                  "name": "Campfire"
                 }
               ],
               "title": "Scenes",
-              "columns": 2
+              "columns": 3
             }
           ]
         }

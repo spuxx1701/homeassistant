@@ -112,7 +112,7 @@
   icon: mdi:white-balance-sunny
   metadata: {}
 - id: '1719660589970'
-  name: 'Living Room: Sunset'
+  name: 'Living Room: Cozy Sunset'
   entities:
     light.tz3210_cieijuw1_ts0505b_light:
       min_color_temp_kelvin: 2000
@@ -123,18 +123,18 @@
       - color_temp
       - xy
       color_mode: xy
-      brightness: 254
+      brightness: 125
       color_temp_kelvin:
       color_temp:
       hs_color:
-      - 308.125
-      - 37.647
+      - 330.131
+      - 89.804
       rgb_color:
       - 255
-      - 159
-      - 242
+      - 26
+      - 140
       xy_color:
-      - 0.371
+      - 0.561
       - 0.239
       off_with_transition: false
       off_brightness:
@@ -150,19 +150,19 @@
       - color_temp
       - xy
       color_mode: xy
-      brightness: 254
+      brightness: 125
       color_temp_kelvin:
       color_temp:
       hs_color:
-      - 308.125
-      - 37.647
+      - 9.231
+      - 66.275
       rgb_color:
       - 255
-      - 159
-      - 242
+      - 112
+      - 86
       xy_color:
-      - 0.371
-      - 0.239
+      - 0.589
+      - 0.329
       off_with_transition: false
       off_brightness:
       friendly_name: Living Room Dining Light
@@ -177,7 +177,7 @@
       - color_temp
       - xy
       color_mode: xy
-      brightness: 254
+      brightness: 130
       color_temp_kelvin:
       color_temp:
       hs_color:
@@ -204,7 +204,7 @@
       - color_temp
       - xy
       color_mode: xy
-      brightness: 254
+      brightness: 125
       color_temp_kelvin:
       color_temp:
       hs_color:
@@ -223,4 +223,569 @@
       supported_features: 40
       state: 'on'
   icon: mdi:weather-sunset
+  metadata: {}
+- id: '1719663697455'
+  name: 'Living Room: Magic Night'
+  entities:
+    light.tz3210_cieijuw1_ts0505b_light:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 6535
+      min_mireds: 153
+      max_mireds: 500
+      supported_color_modes:
+      - color_temp
+      - xy
+      color_mode: xy
+      brightness: 99
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      - 247.595
+      - 30.98
+      rgb_color:
+      - 186
+      - 176
+      - 255
+      xy_color:
+      - 0.271
+      - 0.232
+      off_with_transition: false
+      off_brightness:
+      friendly_name: Living Room Center Light
+      supported_features: 40
+      state: 'on'
+    light.living_room_dining_light_2:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 6535
+      min_mireds: 153
+      max_mireds: 500
+      supported_color_modes:
+      - color_temp
+      - xy
+      color_mode: xy
+      brightness: 130
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      - 219.048
+      - 49.412
+      rgb_color:
+      - 129
+      - 173
+      - 255
+      xy_color:
+      - 0.208
+      - 0.217
+      off_with_transition: false
+      off_brightness:
+      friendly_name: Living Room Dining Light
+      supported_features: 40
+      state: 'on'
+    light.living_room_corner_light_2:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 6535
+      min_mireds: 153
+      max_mireds: 500
+      supported_color_modes:
+      - color_temp
+      - xy
+      color_mode: xy
+      brightness: 128
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      - 323.284
+      - 78.824
+      rgb_color:
+      - 255
+      - 54
+      - 177
+      xy_color:
+      - 0.494
+      - 0.218
+      off_with_transition: false
+      off_brightness:
+      friendly_name: Living Room Corner Light
+      supported_features: 40
+      state: 'on'
+    light.living_room_window_light_2:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 6535
+      min_mireds: 153
+      max_mireds: 500
+      supported_color_modes:
+      - color_temp
+      - xy
+      color_mode: xy
+      brightness: 125
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      - 178.528
+      - 63.922
+      rgb_color:
+      - 92
+      - 255
+      - 251
+      xy_color:
+      - 0.177
+      - 0.345
+      off_with_transition: false
+      off_brightness:
+      friendly_name: Living Room Window Light
+      supported_features: 40
+      state: 'on'
+  metadata: {}
+  icon: mdi:moon-waning-crescent
+- id: '1719664002994'
+  name: 'Living Room: Lush Forest'
+  entities:
+    light.tz3210_cieijuw1_ts0505b_light:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 6535
+      min_mireds: 153
+      max_mireds: 500
+      supported_color_modes:
+      - color_temp
+      - xy
+      color_mode: xy
+      brightness: 254
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      - 41.625
+      - 62.745
+      rgb_color:
+      - 255
+      - 206
+      - 95
+      xy_color:
+      - 0.476
+      - 0.429
+      off_with_transition: false
+      off_brightness:
+      friendly_name: Living Room Center Light
+      supported_features: 40
+      state: 'on'
+    light.living_room_dining_light_2:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 6535
+      min_mireds: 153
+      max_mireds: 500
+      supported_color_modes:
+      - color_temp
+      - xy
+      color_mode: xy
+      brightness: 122
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      - 67.573
+      - 80.784
+      rgb_color:
+      - 229
+      - 255
+      - 49
+      xy_color:
+      - 0.407
+      - 0.532
+      off_with_transition: false
+      off_brightness:
+      friendly_name: Living Room Dining Light
+      supported_features: 40
+      state: 'on'
+    light.living_room_corner_light_2:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 6535
+      min_mireds: 153
+      max_mireds: 500
+      supported_color_modes:
+      - color_temp
+      - xy
+      color_mode: xy
+      brightness: 254
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      - 130
+      - 91.765
+      rgb_color:
+      - 21
+      - 255
+      - 60
+      xy_color:
+      - 0.174
+      - 0.705
+      off_with_transition: false
+      off_brightness:
+      friendly_name: Living Room Corner Light
+      supported_features: 40
+      state: 'on'
+    light.living_room_window_light_2:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 6535
+      min_mireds: 153
+      max_mireds: 500
+      supported_color_modes:
+      - color_temp
+      - xy
+      color_mode: xy
+      brightness: 130
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      - 62.079
+      - 79.216
+      rgb_color:
+      - 248
+      - 255
+      - 53
+      xy_color:
+      - 0.429
+      - 0.512
+      off_with_transition: false
+      off_brightness:
+      friendly_name: Living Room Window Light
+      supported_features: 40
+      state: 'on'
+  metadata: {}
+  icon: mdi:forest
+- id: '1719664170063'
+  name: 'Living Room: Dark Cave'
+  entities:
+    light.tz3210_cieijuw1_ts0505b_light:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 6535
+      min_mireds: 153
+      max_mireds: 500
+      supported_color_modes:
+      - color_temp
+      - xy
+      color_mode: xy
+      brightness: 254
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      - 293.478
+      - 18.039
+      rgb_color:
+      - 250
+      - 209
+      - 255
+      xy_color:
+      - 0.335
+      - 0.279
+      off_with_transition: false
+      off_brightness:
+      friendly_name: Living Room Center Light
+      supported_features: 40
+      state: 'on'
+    light.living_room_dining_light_2:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 6535
+      min_mireds: 153
+      max_mireds: 500
+      supported_color_modes:
+      - color_temp
+      - xy
+      color_mode: xy
+      brightness: 76
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      - 254.237
+      - 69.412
+      rgb_color:
+      - 120
+      - 78
+      - 255
+      xy_color:
+      - 0.203
+      - 0.1
+      off_with_transition: false
+      off_brightness:
+      friendly_name: Living Room Dining Light
+      supported_features: 40
+      state: 'on'
+    light.living_room_corner_light_2:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 6535
+      min_mireds: 153
+      max_mireds: 500
+      supported_color_modes:
+      - color_temp
+      - xy
+      color_mode: xy
+      brightness: 89
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      - 210.38
+      - 61.961
+      rgb_color:
+      - 97
+      - 175
+      - 255
+      xy_color:
+      - 0.18
+      - 0.216
+      off_with_transition: false
+      off_brightness:
+      friendly_name: Living Room Corner Light
+      supported_features: 40
+      state: 'on'
+    light.living_room_window_light_2:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 6535
+      min_mireds: 153
+      max_mireds: 500
+      supported_color_modes:
+      - color_temp
+      - xy
+      color_mode: xy
+      brightness: 76
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      - 283.59
+      - 45.882
+      rgb_color:
+      - 223
+      - 138
+      - 255
+      xy_color:
+      - 0.326
+      - 0.2
+      off_with_transition: false
+      off_brightness:
+      friendly_name: Living Room Window Light
+      supported_features: 40
+      state: 'on'
+  metadata: {}
+  icon: mdi:image-filter-hdr
+- id: '1719664423438'
+  name: 'Living Room: Sunny Fields'
+  entities:
+    light.tz3210_cieijuw1_ts0505b_light:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 6535
+      min_mireds: 153
+      max_mireds: 500
+      supported_color_modes:
+      - color_temp
+      - xy
+      color_mode: color_temp
+      brightness: 254
+      color_temp_kelvin: 3521
+      color_temp: 284
+      hs_color:
+      - 27.152
+      - 44.32
+      rgb_color:
+      - 255
+      - 193
+      - 141
+      xy_color:
+      - 0.453
+      - 0.374
+      off_with_transition: false
+      off_brightness:
+      friendly_name: Living Room Center Light
+      supported_features: 40
+      state: 'on'
+    light.living_room_dining_light_2:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 6535
+      min_mireds: 153
+      max_mireds: 500
+      supported_color_modes:
+      - color_temp
+      - xy
+      color_mode: color_temp
+      brightness: 254
+      color_temp_kelvin: 2000
+      color_temp: 500
+      hs_color:
+      - 30.601
+      - 94.547
+      rgb_color:
+      - 255
+      - 136
+      - 13
+      xy_color:
+      - 0.599
+      - 0.382
+      off_with_transition: false
+      off_brightness:
+      friendly_name: Living Room Dining Light
+      supported_features: 40
+      state: 'on'
+    light.living_room_corner_light_2:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 6535
+      min_mireds: 153
+      max_mireds: 500
+      supported_color_modes:
+      - color_temp
+      - xy
+      color_mode: xy
+      brightness: 254
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      - 70.056
+      - 70.196
+      rgb_color:
+      - 225
+      - 255
+      - 76
+      xy_color:
+      - 0.392996
+      - 0.521996
+      off_with_transition: false
+      off_brightness:
+      friendly_name: Living Room Corner Light
+      supported_features: 40
+      state: 'on'
+    light.living_room_window_light_2:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 6535
+      min_mireds: 153
+      max_mireds: 500
+      supported_color_modes:
+      - color_temp
+      - xy
+      color_mode: xy
+      brightness: 254
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      - 77.143
+      - 74.118
+      rgb_color:
+      - 201
+      - 255
+      - 66
+      xy_color:
+      - 0.364
+      - 0.553
+      off_with_transition: false
+      off_brightness:
+      friendly_name: Living Room Window Light
+      supported_features: 40
+      state: 'on'
+  metadata: {}
+  icon: mdi:grass
+- id: '1719699272106'
+  name: 'Living Room: Campfire'
+  entities:
+    light.tz3210_cieijuw1_ts0505b_light:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 6535
+      min_mireds: 153
+      max_mireds: 500
+      supported_color_modes:
+      - color_temp
+      - xy
+      color_mode: xy
+      brightness: 254
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      - 26.824
+      - 100
+      rgb_color:
+      - 255
+      - 114
+      - 0
+      xy_color:
+      - 0.631
+      - 0.359
+      off_with_transition: false
+      off_brightness:
+      friendly_name: Living Room Center Light
+      supported_features: 40
+      state: 'on'
+    light.living_room_dining_light_2:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 6535
+      min_mireds: 153
+      max_mireds: 500
+      supported_color_modes:
+      - color_temp
+      - xy
+      color_mode: xy
+      brightness: 3
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      - 219.048
+      - 49.412
+      rgb_color:
+      - 129
+      - 173
+      - 255
+      xy_color:
+      - 0.208
+      - 0.217
+      off_with_transition: false
+      off_brightness:
+      friendly_name: Living Room Dining Light
+      supported_features: 40
+      state: 'on'
+    light.living_room_corner_light_2:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 6535
+      min_mireds: 153
+      max_mireds: 500
+      supported_color_modes:
+      - color_temp
+      - xy
+      color_mode: xy
+      brightness: 3
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      - 192.174
+      - 54.118
+      rgb_color:
+      - 117
+      - 227
+      - 255
+      xy_color:
+      - 0.194
+      - 0.298
+      off_with_transition: false
+      off_brightness:
+      friendly_name: Living Room Corner Light
+      supported_features: 40
+      state: 'on'
+    light.living_room_window_light_2:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 6535
+      min_mireds: 153
+      max_mireds: 500
+      supported_color_modes:
+      - color_temp
+      - xy
+      color_mode: xy
+      brightness: 3
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      - 238.154
+      - 76.471
+      rgb_color:
+      - 60
+      - 66
+      - 255
+      xy_color:
+      - 0.152
+      - 0.069
+      off_with_transition: false
+      off_brightness:
+      friendly_name: Living Room Window Light
+      supported_features: 40
+      state: 'on'
+  icon: mdi:fire
   metadata: {}
