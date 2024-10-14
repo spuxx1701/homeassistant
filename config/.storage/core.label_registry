@@ -10,6 +10,20 @@
         "icon": "mdi:lightbulb-group",
         "label_id": "lights",
         "name": "Lights"
+      },
+      {
+        "color": "blue",
+        "description": null,
+        "icon": "mdi:desk",
+        "label_id": "office",
+        "name": "Office"
+      },
+      {
+        "color": "green",
+        "description": null,
+        "icon": "mdi:sofa",
+        "label_id": "living_room",
+        "name": "Living Room"
       }
     ]
   }

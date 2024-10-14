@@ -15,9 +15,9 @@
             },
             {
               "type": "iframe",
-              "url": "https://www.deutschlandfunk.de",
+              "url": "https://baby-wetter.de/",
               "aspect_ratio": "100%",
-              "title": "News"
+              "title": "Was muss Toni tragen?"
             }
           ],
           "icon": "mdi:newspaper"

@@ -30,6 +30,24 @@
         "require_admin": false,
         "mode": "storage",
         "url_path": "living-room"
+      },
+      {
+        "id": "dashboard_office",
+        "show_in_sidebar": true,
+        "icon": "mdi:desk",
+        "title": "Office",
+        "require_admin": false,
+        "mode": "storage",
+        "url_path": "dashboard-office"
+      },
+      {
+        "id": "vaccum_cleaner",
+        "show_in_sidebar": true,
+        "icon": "mdi:robot-vacuum",
+        "title": "Vaccum Cleaner",
+        "require_admin": false,
+        "mode": "storage",
+        "url_path": "vaccum-cleaner"
       }
     ]
   }

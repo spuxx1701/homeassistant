@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace.dashboard_office",
+  "data": {
+    "config": {
+      "views": [
+        {
+          "title": "Office",
+          "icon": "",
+          "cards": [
+            {
+              "type": "light",
+              "entity": "light.office_lights",
+              "name": "Lights"
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "light.office_1_light_2"
+                },
+                {
+                  "entity": "light.office_2_light_2"
+                }
+              ],
+              "title": "Lights"
+            },
+            {
+              "square": true,
+              "type": "grid",
+              "cards": [
+                {
+                  "show_name": true,
+                  "show_icon": true,
+                  "type": "button",
+                  "tap_action": {
+                    "action": "toggle"
+                  },
+                  "entity": "scene.office_bed",
+                  "name": "Bed"
+                },
+                {
+                  "show_name": true,
+                  "show_icon": true,
+                  "type": "button",
+                  "tap_action": {
+                    "action": "toggle"
+                  },
+                  "entity": "scene.office_classic",
+                  "name": "Classic"
+                },
+                {
+                  "show_name": true,
+                  "show_icon": true,
+                  "type": "button",
+                  "tap_action": {
+                    "action": "toggle"
+                  },
+                  "entity": "scene.office_cozy",
+                  "name": "Cozy"
+                },
+                {
+                  "show_name": true,
+                  "show_icon": true,
+                  "type": "button",
+                  "tap_action": {
+                    "action": "toggle"
+                  },
+                  "entity": "scene.office_moonlight",
+                  "name": "Moonlight"
+                }
+              ],
+              "title": "Scenes",
+              "columns": 2
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

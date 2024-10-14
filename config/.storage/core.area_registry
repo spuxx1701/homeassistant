@@ -7,9 +7,11 @@
       {
         "aliases": [],
         "floor_id": null,
-        "icon": null,
+        "icon": "mdi:sofa",
         "id": "living_room",
-        "labels": [],
+        "labels": [
+          "living_room"
+        ],
         "name": "Living Room",
         "picture": null
       },
@@ -29,6 +31,17 @@
         "id": "bedroom",
         "labels": [],
         "name": "Bedroom",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "floor_id": null,
+        "icon": "mdi:desk",
+        "id": "arbeitszimmer",
+        "labels": [
+          "office"
+        ],
+        "name": "Office",
         "picture": null
       }
     ]
